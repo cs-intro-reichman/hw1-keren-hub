@@ -3,15 +3,14 @@
 public class Ascend {
 	public static void main(String[] args) {
 		int lim= Integer.parseInt (args [0]);
-		int minlimi= 1;
-		int a= (int) ((Math.random()*lim)+ minlimi);
-		int b= (int) ((Math.random()*lim)+ minlimi);
-		int c= (int) ((Math.random()*lim)+ minlimi);	
-		System.out.println( a+b+c);
+		int a= (int) (Math.random()*lim);
+		int b= (int) (Math.random()*lim);
+		int c= (int) (Math.random()*lim);	
+		System.out.println(" "+ a + "  " +b + "  " +c);
 		int min= Math.min(a,Math.min(b, c));
 		int max= Math.max(a,Math.max(b, c));
 		int mid= a + b + c - min - max;	
-		System.out.println(min + mid + max);
+		System.out.println("  "+min + " " + mid + " " + max);
 		
 
 
