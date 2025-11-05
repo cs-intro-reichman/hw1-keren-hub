@@ -20,9 +20,8 @@ public class TimeFormat {
 			if (hours > 12) {
 				finalHours = hours - 12;
 			}
-		} else if (hours == 0) {
-			finalHours = 12;
-		}
+		} 
+		
 
 		String minutesStr = "";
 		if (minutes < 10) {
